@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jpg_logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Login Form"
+        android:textColor="@color/main_sub_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_shape"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawablePadding="10dp"
+        android:hint="Contact"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/main_color" />
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cnum"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:background="@drawable/border_shape"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/main_color" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pword"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/main_color"
+        android:text="Login"
+        android:textColor="@color/sub_color_white" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginTop="10dp"
+        android:text="Don't have an account? Click to sign up"
+        android:textAlignment="center"
+        android:textColor="@color/main_sub_color"
+        android:textSize="15dp" />
+
+</RelativeLayout>

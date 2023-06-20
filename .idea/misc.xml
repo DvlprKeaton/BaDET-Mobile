@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3875" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/border_selector.xml" value="0.3865" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/border_shape.xml" value="0.3875" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/button_background.xml" value="0.197" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/edittext_border.xml" value="0.3875" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/ic_baseline_camera.xml" value="0.3875" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.197" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.163" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3875" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/item_active.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/drawable/nav_bg.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_contacts.xml" value="0.3723958333333333" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_emergency_contacts.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_layout_list.xml" value="0.29347826086956524" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_profile_update.xml" value="0.3723958333333333" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_registration_form.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/activity_settings.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/dialog_terms.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/layout/edit_text_layout.xml" value="0.37135416666666665" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/menu/menu_item.xml" value="0.190625" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/BADET/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3875" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_registration_form.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

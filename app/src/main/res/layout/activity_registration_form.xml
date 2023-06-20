@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@color/sub_color_pink"
+    tools:context=".RegistrationForm">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/jpg_logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Registration Form"
+        android:textColor="@color/main_sub_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border_shape"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawablePadding="10dp"
+        android:hint="Contact"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/main_color" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cnum"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/border_shape"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Full name"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:textColor="@color/main_color"/>
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/border_shape"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:textColor="@color/main_color"/>
+
+    <EditText
+        android:id="@+id/cpword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_shape"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/main_color" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cpword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="I agree to the terms and conditions" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxTerms"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/main_color"
+        android:text="Register"
+        android:textColor="@color/sub_color_white" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:layout_marginTop="10dp"
+        android:text="Existing User? Click to sign in"
+        android:textColor="@color/main_sub_color"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+</RelativeLayout>
+</ScrollView>
